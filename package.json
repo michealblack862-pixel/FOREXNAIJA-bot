@@ -1,0 +1,17 @@
+{
+  "name": "nairapulse-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that sends daily naira exchange rate updates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
